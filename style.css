@@ -13,7 +13,7 @@
     --Yellow-500: hsl(39, 100%, 71%);
 
     --White:hsl(0, 0%, 100%);
-    --white2: #f2f2f2;
+    --white2: #f1f1f1;
     --Black:hsl(0, 0%, 7%);
 }
 
@@ -60,4 +60,18 @@
 #container #manege-accounts img{
     width: 100%;
     margin: 0px 0px 10px 0px;
+}
+
+#container #posting{
+    background-color: var(--Yellow-500);
+    margin: 35px 0px 0px 0px;
+    padding: 20px 20px 0px 20px;
+    border-radius: 10px;
+}
+
+#container #posting img{
+    width: 75%;
+    margin: 20px 0px 0px 0px;
+    position: relative;
+    top: 5px;
 }
