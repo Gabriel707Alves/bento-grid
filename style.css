@@ -13,11 +13,13 @@
     --Yellow-500: hsl(39, 100%, 71%);
 
     --White:hsl(0, 0%, 100%);
+    --white2: #f2f2f2;
     --Black:hsl(0, 0%, 7%);
 }
 
 #container{
     padding: 20px 30px;
+    background-color: var(--white2);
 }
 
 /* Primeiro bloco Social Media */
@@ -44,4 +46,18 @@
 
 #container #social-media span{
     color: var(--Yellow-500);
+}
+
+
+/* Redes Sociais */
+#container #manege-accounts{
+    background-color: var(--White);
+    padding: 10px;
+    margin: 35px 0px 0px 0px;
+    border-radius: 10px;
+}
+
+#container #manege-accounts img{
+    width: 100%;
+    margin: 0px 0px 10px 0px;
 }
