@@ -62,6 +62,8 @@
     margin: 0px 0px 10px 0px;
 }
 
+
+/* Calendário de agosto */
 #container #posting{
     background-color: var(--Yellow-500);
     margin: 35px 0px 0px 0px;
@@ -74,4 +76,29 @@
     margin: 20px 0px 0px 0px;
     position: relative;
     top: 5px;
+}
+
+
+/* Schedule to social media */
+#container #schedule{
+    background-color: var(--Purple-100);
+    padding: 20px;
+    margin: 35px 0px 0px 0px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#container #schedule img{
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+}
+
+#container #schedule h2{
+    font-size: 1.4rem;
+    
+}
+
+#container #schedule p{
+    font-size: 1.2rem;
+    margin: 0px 0px 15px 0px;
 }
