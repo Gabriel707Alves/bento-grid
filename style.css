@@ -127,5 +127,24 @@
 #container #grow-followers img{
     width: 80%;
     margin: 20px 0px 20px 0px;
+}
+
+
+/* Audience growth */
+#container #faster-growth{
+    background-color: var(--White);
+    padding: 20px;
+    margin: 35px 0px 0px 0px;
+    border-radius: 10px;
+}
+
+#container #faster-growth img{
+    width: 55%;
+    margin: 20px 0px 0px 0px;
+}
+
+#container #faster-growth span{
+    font-size: 2.2rem;
+    font-weight: 600;
     
 }
