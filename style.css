@@ -4,3 +4,44 @@
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
 }
+
+:root{
+    --Purple-100: hsl(254, 88%, 90%);
+    --Purple-500: hsl(256, 67%, 59%);
+
+    --Yellow-100: hsl(31, 66%, 93%);
+    --Yellow-500: hsl(39, 100%, 71%);
+
+    --White:hsl(0, 0%, 100%);
+    --Black:hsl(0, 0%, 7%);
+}
+
+#container{
+    padding: 20px 30px;
+}
+
+/* Primeiro bloco Social Media */
+#container #social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 35px;
+    background-color: var(--Purple-500);
+    border-radius: 10px;
+    color: var(--White);
+}
+
+#container #social-media h1{
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    line-height: 1;
+}
+
+#container #social-media img{
+    width: 60%;
+}
+
+#container #social-media span{
+    color: var(--Yellow-500);
+}
