@@ -148,3 +148,26 @@
     font-weight: 600;
     
 }
+
+
+
+/* Create content */
+#container #create-content{
+    background-color: var(--Yellow-100);
+    padding: 20px;
+    margin: 35px 0px 0px 0px;
+    border-radius: 10px;
+}
+
+#container #create-content img{
+    width: 60%;
+    margin: 20px 0px 0px 0px;
+}
+
+#container #create-content h2{
+    font-size: 1.8rem;
+}
+
+#container #create-content h2 span{
+    color: var(--Purple-500);
+}
