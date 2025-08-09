@@ -102,3 +102,30 @@
     font-size: 1.2rem;
     margin: 0px 0px 15px 0px;
 }
+
+
+/* Gráfico de Seguidores */
+#container #grow-followers{
+    background-color: var(--Purple-500);
+    color: var(--White);
+    padding: 20px;
+    margin: 35px 0px 0px 0px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#container #grow-followers h1{
+    font-size: 2rem;
+    margin: 20px 0px 0px 0px;
+    line-height: 0.9;
+}
+
+#container #grow-followers img{
+    width: 80%;
+    margin: 20px 0px 20px 0px;
+    
+}
