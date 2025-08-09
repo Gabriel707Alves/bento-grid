@@ -171,3 +171,22 @@
 #container #create-content h2 span{
     color: var(--Purple-500);
 }
+
+
+/* Content Using AI */
+#container #write-content{
+    background-color: var(--Yellow-500);
+    padding: 20px;
+    margin: 35px 0px 0px 0px;
+    border-radius: 10px;
+}
+
+#container #write-content h2{
+    font-size: 1.8rem;
+    margin: 0px 0px 10px 0px;
+}
+
+#container #write-content img{
+    width: 80%;
+    margin: 10px 0px 0px 0px;
+}
