@@ -190,3 +190,155 @@
     width: 80%;
     margin: 10px 0px 0px 0px;
 }
+
+
+/* Respondividade */
+@media (min-width: 1440px){
+
+    body{
+        background-color: var(--white2);
+    }
+
+    #container{
+        width: 50%;
+        margin: 100px auto;
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 250px 40px 150px auto; 
+        gap: 20px;
+        line-height: 1;
+    }
+
+
+    /* Create Content */
+    #container #create-content{
+        grid-column: 1 / 2;
+        grid-row: 1 / span 2;
+        margin: 0px;
+
+        line-height: 1;
+    }
+
+    #container #create-content img{
+        width: 100%;
+
+    }
+
+
+
+    /* Write Content */
+    #container #write-content{
+        grid-column: 1 / 2;
+        grid-row: 3 / 5;
+        margin: 0px;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #container #write-content img{
+        width: 100%;
+        margin: 30px 0px 0px 0px;
+    }
+
+    /* Social Media */
+    #container #social-media{
+        grid-column: 2 / 4;
+        grid-row: 1 / 2;
+        margin: 0px;
+    }
+
+    #container #social-media img{
+        width: 43%;
+        margin: 0px 0px 10px 0px;
+    }
+
+    #container #social-media h1{
+        font-weight: 500;
+        font-size: 2.9rem;
+        
+    }
+    /* Redes Sociais */
+    #container #manege-accounts{
+        grid-column: 2 / 3;
+        grid-row: 2 / 4;
+        margin: 0px;
+        overflow: hidden;
+        line-height: 1;
+        
+    }
+
+    #container #manege-accounts img{
+        width: 143%;
+        margin: 10px 0px 0px 0px;
+    }
+
+    #container #manege-accounts h2{
+        margin: 20px 0px 0px 0px;
+    }
+
+    /* Calendário de agosto */
+    #container #posting{
+        grid-column: 3 / 4;
+        grid-row: 2 / 4;
+        margin: 0px;
+        overflow: hidden;
+        line-height: 1;
+    }
+
+    #container #posting img{
+        width: 100%;
+        margin: 0px;
+    }
+
+
+    /* Schedule to social media*/
+    #container #schedule{
+        grid-column: 4 / 5;
+        grid-row: 1 / 4;
+        margin: 0px;
+        overflow: hidden;
+    }
+
+    #container #schedule img{
+        width: 180%;
+    }   
+
+    #container #schedule p{
+        font-size: 16px;
+        text-align: start;
+    }
+
+    /* Gráfico de Seguidores */
+    #container #grow-followers{
+        grid-column: 3 / 5;
+        grid-row: 4 / 5;
+        margin: 0px;
+        padding: 0px 20px;
+
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #container #grow-followers img{
+        width: 40%;
+    }
+
+    #container #grow-followers h1{
+        text-align: start;
+        margin: 0px 0px 0px 10px;
+        font-weight: 400;
+    }
+
+    /* Audience growth */
+    #container #faster-growth{
+        grid-column: 2 / 3;
+        grid-row: 4 / 5;
+        margin: 0px;
+        
+    }
+}
+    
+
